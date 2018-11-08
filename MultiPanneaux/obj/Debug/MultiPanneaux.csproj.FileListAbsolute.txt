@@ -1,0 +1,15 @@
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\bin\Debug\MultiPanneaux.exe.config
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\bin\Debug\MultiPanneaux.exe
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\bin\Debug\MultiPanneaux.pdb
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\obj\Debug\MultiPanneaux.csprojAssemblyReference.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\obj\Debug\VueApp.g.cs
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\obj\Debug\App.g.cs
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\obj\Debug\MultiPanneaux_MarkupCompile.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\obj\Debug\MultiPanneaux_MarkupCompile.lref
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\obj\Debug\VueApp.baml
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\obj\Debug\MultiPanneaux.g.resources
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\obj\Debug\MultiPanneaux.Properties.Resources.resources
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\obj\Debug\MultiPanneaux.csproj.GenerateResource.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\obj\Debug\MultiPanneaux.csproj.CoreCompileInputs.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\obj\Debug\MultiPanneaux.exe
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPanneaux\obj\Debug\MultiPanneaux.pdb

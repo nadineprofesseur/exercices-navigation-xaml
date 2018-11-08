@@ -1,0 +1,15 @@
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\bin\Debug\MultiPages.exe.config
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\bin\Debug\MultiPages.exe
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\bin\Debug\MultiPages.pdb
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\obj\Debug\App.g.cs
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\obj\Debug\MultiPages_MarkupCompile.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\obj\Debug\MultiPages_MarkupCompile.lref
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\obj\Debug\MultiPages.g.resources
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\obj\Debug\MultiPages.Properties.Resources.resources
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\obj\Debug\MultiPages.csproj.GenerateResource.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\obj\Debug\MultiPages.csproj.CoreCompileInputs.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\obj\Debug\MultiPages.exe
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\obj\Debug\MultiPages.pdb
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\obj\Debug\MultiPages.csprojAssemblyReference.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\obj\Debug\VueApp.g.cs
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiPages\obj\Debug\VueApp.baml

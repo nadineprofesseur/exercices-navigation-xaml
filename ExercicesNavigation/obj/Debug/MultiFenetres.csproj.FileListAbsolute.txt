@@ -1,0 +1,5 @@
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\ExercicesNavigation\obj\Debug\MultiFenetres.csprojAssemblyReference.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\ExercicesNavigation\obj\Debug\VueStatistiques.g.cs
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\ExercicesNavigation\obj\Debug\MultiFenetres_MarkupCompile.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\ExercicesNavigation\obj\Debug\MultiFenetres_MarkupCompile.lref
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\ExercicesNavigation\obj\Debug\App.g.cs

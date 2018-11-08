@@ -1,0 +1,15 @@
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\bin\Debug\MultiFenetres.exe.config
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\bin\Debug\MultiFenetres.exe
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\bin\Debug\MultiFenetres.pdb
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\VueStatistiques.g.cs
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\App.g.cs
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\MultiFenetres_MarkupCompile.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\MultiFenetres_MarkupCompile.lref
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\VueStatistiques.baml
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\MultiFenetres.g.resources
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\MultiFenetres.Properties.Resources.resources
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\MultiFenetres.csproj.GenerateResource.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\MultiFenetres.csproj.CoreCompileInputs.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\MultiFenetres.exe
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\MultiFenetres.pdb
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\MultiFenetres.csprojAssemblyReference.cache
