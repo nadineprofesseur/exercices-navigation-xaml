@@ -28,6 +28,7 @@ namespace MultiFenetres
 			Console.WriteLine("VueStatistiques()");
 			InitializeComponent();
 			this.controleur = new ControleurStatistiques(this);
+			NavigateurDesVues.getInstance().enregistrerPremiereVue(this); // car VueStatistiques est specifie dans App.xaml
 		}
 
 		private void actionNaviguerStatistiques_Click(object sender, RoutedEventArgs e)
