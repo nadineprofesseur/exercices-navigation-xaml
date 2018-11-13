@@ -19,9 +19,13 @@ namespace MultiFenetres
     /// </summary>
     public partial class VueAdministration : Window
     {
+
+		protected ControleurAdministration controleur;
+
         public VueAdministration()
         {
             InitializeComponent();
+			this.controleur = new ControleurAdministration(this);
         }
     }
 }

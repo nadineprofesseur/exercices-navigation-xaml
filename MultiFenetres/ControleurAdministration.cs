@@ -8,5 +8,11 @@ namespace MultiFenetres
 {
     public class ControleurAdministration
     {
+		protected VueAdministration vue = null;
+
+		public ControleurAdministration(VueAdministration vue)
+		{
+			this.vue = vue;			
+		}
     }
 }
