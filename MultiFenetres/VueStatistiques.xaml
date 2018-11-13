@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="VueStatistiques" Height="450" Width="800">
     <Grid>
-		<Button Content="Statistiques" HorizontalAlignment="Left" Margin="32,23,0,0" VerticalAlignment="Top" Width="103" FontWeight="Bold" FontSize="16" Background="#FF9BBBF1" BorderBrush="#FF9BBBF1"/>
-		<Button Content="Administration" HorizontalAlignment="Left" Margin="140,23,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="16" Background="#FF9BBBF1" BorderBrush="#FF9BBBF1"/>
-		<Button Content="Aide" HorizontalAlignment="Left" Margin="265,23,0,0" VerticalAlignment="Top" Width="135" FontWeight="Bold" FontSize="16" Background="#FF9BBBF1" BorderBrush="#FF9BBBF1"/>
+		<Button x:Name="actionNaviguerStatistiques" Content="Statistiques" HorizontalAlignment="Left" Margin="32,23,0,0" VerticalAlignment="Top" Width="103" FontWeight="Bold" FontSize="16" Background="#FF9BBBF1" BorderBrush="#FF9BBBF1" Click="actionNaviguerStatistiques_Click"/>
+		<Button x:Name="actionNaviguerAdministration" Content="Administration" HorizontalAlignment="Left" Margin="140,23,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="16" Background="#FF9BBBF1" BorderBrush="#FF9BBBF1" Click="actionNaviguerAdministration_Click"/>
+		<Button x:Name="actionNaviguerAide" Content="Aide" HorizontalAlignment="Left" Margin="265,23,0,0" VerticalAlignment="Top" Width="135" FontWeight="Bold" FontSize="16" Background="#FF9BBBF1" BorderBrush="#FF9BBBF1" Click="actionNaviguerAide_Click"/>
 		<TextBlock HorizontalAlignment="Left" Margin="32,72,0,0" TextWrapping="Wrap" Text="STATISTIQUES" VerticalAlignment="Top" Height="55" Width="725" FontWeight="Bold" FontSize="36" TextAlignment="Center"/>
 	</Grid>
 </Window>

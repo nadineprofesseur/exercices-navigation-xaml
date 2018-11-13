@@ -27,5 +27,20 @@ namespace MultiFenetres
             InitializeComponent();
 			this.controleur = new ControleurAdministration(this);
         }
-    }
+
+		private void actionNaviguerAdministration_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void actionNaviguerAide_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void actionNaviguerStatistiques_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+	}
 }

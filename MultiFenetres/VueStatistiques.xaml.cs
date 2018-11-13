@@ -25,8 +25,24 @@ namespace MultiFenetres
 
 		public VueStatistiques()
 		{
+			Console.WriteLine("VueStatistiques()");
 			InitializeComponent();
 			this.controleur = new ControleurStatistiques(this);
+		}
+
+		private void actionNaviguerStatistiques_Click(object sender, RoutedEventArgs e)
+		{
+			this.controleur.notifierActionNaviguer(ControleurStatistiques.ACTION_NAVIGUER.STATISTIQUES);
+		}
+
+		private void actionNaviguerAdministration_Click(object sender, RoutedEventArgs e)
+		{
+			this.controleur.notifierActionNaviguer(ControleurStatistiques.ACTION_NAVIGUER.ADMINISTRATION);
+		}
+
+		private void actionNaviguerAide_Click(object sender, RoutedEventArgs e)
+		{
+			this.controleur.notifierActionNaviguer(ControleurStatistiques.ACTION_NAVIGUER.AIDE);
 		}
 	}
 }

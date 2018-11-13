@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace MultiFenetres
 {
-    class NavigateurDesVues
+    public class NavigateurDesVues
     {
+
+
 		// DESIGN PATTERN SINGLETON - debut
 		private NavigateurDesVues()
 		{
@@ -20,5 +22,24 @@ namespace MultiFenetres
 			return navigateur;
 		}
 		// DESIGN PATTERN SINGLETON - fin
+
+		public void naviguerVersAdministration()
+		{
+			Console.WriteLine("naviguerVersAdministration()");
+
+		}
+
+		public void naviguerVersStatistiques()
+		{
+			Console.WriteLine("naviguerVersStatistiques()");
+
+		}
+
+		public void naviguerVersAide()
+		{
+			Console.WriteLine("naviguerVersAide()");
+
+		}
+
 	}
 }
