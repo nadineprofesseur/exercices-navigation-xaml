@@ -37,10 +37,10 @@ namespace MultiFenetres
 		public void naviguerVersAdministration()
 		{
 			Console.WriteLine("naviguerVersAdministration()");
-			this.vueAdministration = new VueAdministration();
+			if(this.vueAdministration == null) this.vueAdministration = new VueAdministration();
 			this.vueAdministration.Show();
-			this.vueCourante.Close();
-			this.vueCourante = null; // pour detruire l'objet au lieu de le reutiliser
+			this.vueCourante.Hide();
+			//this.vueCourante = null; // pour detruire l'objet au lieu de le reutiliser
 			this.vueCourante = this.vueAdministration;
 		}
 
@@ -48,10 +48,10 @@ namespace MultiFenetres
 		public void naviguerVersStatistiques()
 		{
 			Console.WriteLine("naviguerVersStatistiques()");
-			this.vueStatistiques = new VueStatistiques();
+			if(this.vueStatistiques == null) this.vueStatistiques = new VueStatistiques();
 			this.vueStatistiques.Show();
-			this.vueCourante.Close();
-			this.vueCourante = null; // pour detruire l'objet au lieu de le reutiliser
+			this.vueCourante.Hide();
+			//this.vueCourante = null; // pour detruire l'objet au lieu de le reutiliser
 			this.vueCourante = this.vueStatistiques;
 		}
 
@@ -59,10 +59,10 @@ namespace MultiFenetres
 		public void naviguerVersAide()
 		{
 			Console.WriteLine("naviguerVersAide()");
-			this.vueAide = new VueAide();
+			if(this.vueAide == null) this.vueAide = new VueAide();
 			this.vueAide.Show();
-			this.vueCourante.Close();
-			this.vueCourante = null; // pour detruire l'objet au lieu de le reutiliser
+			this.vueCourante.Hide();
+			//this.vueCourante = null; // pour detruire l'objet au lieu de le reutiliser
 			this.vueCourante = this.vueAide;
 		}
 

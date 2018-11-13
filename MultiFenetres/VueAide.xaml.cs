@@ -23,7 +23,8 @@ namespace MultiFenetres
 		protected ControleurAide controleur;
         public VueAide()
         {
-            InitializeComponent();
+			WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
+			InitializeComponent();
 			this.controleur = new ControleurAide(this);
         }
 

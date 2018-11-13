@@ -24,6 +24,7 @@ namespace MultiFenetres
 
         public VueAdministration()
         {
+			WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
             InitializeComponent();
 			this.controleur = new ControleurAdministration(this);
         }

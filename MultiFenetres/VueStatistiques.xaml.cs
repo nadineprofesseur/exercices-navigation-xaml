@@ -25,6 +25,7 @@ namespace MultiFenetres
 
 		public VueStatistiques()
 		{
+			WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
 			Console.WriteLine("VueStatistiques()");
 			InitializeComponent();
 			this.controleur = new ControleurStatistiques(this);
