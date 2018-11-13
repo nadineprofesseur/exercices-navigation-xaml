@@ -28,19 +28,20 @@ namespace MultiFenetres
 			this.controleur = new ControleurAdministration(this);
         }
 
+		private void actionNaviguerStatistiques_Click(object sender, RoutedEventArgs e)
+		{
+			this.controleur.notifierActionNaviguer(NavigateurDesVues.ACTION_NAVIGUER.STATISTIQUES);
+		}
+
 		private void actionNaviguerAdministration_Click(object sender, RoutedEventArgs e)
 		{
-
+			this.controleur.notifierActionNaviguer(NavigateurDesVues.ACTION_NAVIGUER.ADMINISTRATION);
 		}
 
 		private void actionNaviguerAide_Click(object sender, RoutedEventArgs e)
 		{
-
+			this.controleur.notifierActionNaviguer(NavigateurDesVues.ACTION_NAVIGUER.AIDE);
 		}
 
-		private void actionNaviguerStatistiques_Click(object sender, RoutedEventArgs e)
-		{
-
-		}
 	}
 }

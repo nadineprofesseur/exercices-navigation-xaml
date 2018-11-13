@@ -14,5 +14,24 @@ namespace MultiFenetres
 		{
 			this.vue = vue;			
 		}
-    }
+
+
+		public void notifierActionNaviguer(NavigateurDesVues.ACTION_NAVIGUER action)
+		{
+			switch (action)
+			{
+				case NavigateurDesVues.ACTION_NAVIGUER.STATISTIQUES:
+					NavigateurDesVues.getInstance().naviguerVersStatistiques();
+					break;
+				case NavigateurDesVues.ACTION_NAVIGUER.ADMINISTRATION:
+					//NavigateurDesVues.getInstance().naviguerVersAdministration();
+					break;
+				case NavigateurDesVues.ACTION_NAVIGUER.AIDE:
+					NavigateurDesVues.getInstance().naviguerVersAide();
+					break;
+			}
+		}
+
+
+	}
 }

@@ -33,17 +33,17 @@ namespace MultiFenetres
 
 		private void actionNaviguerStatistiques_Click(object sender, RoutedEventArgs e)
 		{
-			this.controleur.notifierActionNaviguer(ControleurStatistiques.ACTION_NAVIGUER.STATISTIQUES);
+			this.controleur.notifierActionNaviguer(NavigateurDesVues.ACTION_NAVIGUER.STATISTIQUES);
 		}
 
 		private void actionNaviguerAdministration_Click(object sender, RoutedEventArgs e)
 		{
-			this.controleur.notifierActionNaviguer(ControleurStatistiques.ACTION_NAVIGUER.ADMINISTRATION);
+			this.controleur.notifierActionNaviguer(NavigateurDesVues.ACTION_NAVIGUER.ADMINISTRATION);
 		}
 
 		private void actionNaviguerAide_Click(object sender, RoutedEventArgs e)
 		{
-			this.controleur.notifierActionNaviguer(ControleurStatistiques.ACTION_NAVIGUER.AIDE);
+			this.controleur.notifierActionNaviguer(NavigateurDesVues.ACTION_NAVIGUER.AIDE);
 		}
 	}
 }

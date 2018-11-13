@@ -9,6 +9,7 @@ namespace MultiFenetres
 {
     public class NavigateurDesVues
     {
+		public enum ACTION_NAVIGUER { STATISTIQUES, ADMINISTRATION, AIDE };
 
 		private Window premiereVue = null; 
 		protected Window vueCourante = null;
