@@ -10,23 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace MultiFenetres
 {
-	/// <summary>
-	/// Logique d'interaction pour MainWindow.xaml
-	/// </summary>
-	public partial class VueStatistiques: Window
-	{
-
-		protected ControleurStatistiques controleur = null;
-
-		public VueStatistiques()
-		{
-			InitializeComponent();
-			this.controleur = new ControleurStatistiques(this);
-		}
-	}
+    /// <summary>
+    /// Logique d'interaction pour VueAdministration.xaml
+    /// </summary>
+    public partial class VueAdministration : Window
+    {
+        public VueAdministration()
+        {
+            InitializeComponent();
+        }
+    }
 }

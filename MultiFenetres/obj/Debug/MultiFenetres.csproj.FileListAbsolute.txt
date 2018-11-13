@@ -13,3 +13,7 @@ C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\
 C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\MultiFenetres.exe
 C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\MultiFenetres.pdb
 C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\MultiFenetres.csprojAssemblyReference.cache
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\VueAdministration.g.cs
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\VueAide.g.cs
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\VueAdministration.baml
+C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\obj\Debug\VueAide.baml

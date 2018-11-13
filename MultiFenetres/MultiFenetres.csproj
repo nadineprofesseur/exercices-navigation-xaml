@@ -55,6 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="VueAdministration.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VueAide.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="VueStatistiques.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -62,6 +70,16 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ControleurAdministration.cs" />
+    <Compile Include="ControleurAide.cs" />
+    <Compile Include="ControleurStatistiques.cs" />
+    <Compile Include="NavigateurDesVues.cs" />
+    <Compile Include="VueAdministration.xaml.cs">
+      <DependentUpon>VueAdministration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VueAide.xaml.cs">
+      <DependentUpon>VueAide.xaml</DependentUpon>
     </Compile>
     <Compile Include="VueStatistiques.xaml.cs">
       <DependentUpon>VueStatistiques.xaml</DependentUpon>

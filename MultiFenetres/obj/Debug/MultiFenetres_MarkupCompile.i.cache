@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\stamandnadine\source\repos\ExercicesNavigation\MultiFenetres\App.xaml
-1-1439403649
+32145852320
 
-9-1244245112
+15-430613648
 131569487696
-VueStatistiques.xaml;
+VueAdministration.xaml;VueAide.xaml;VueStatistiques.xaml;
 
-True
+False
 
