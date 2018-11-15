@@ -21,10 +21,6 @@ namespace MultiPanneaux
 	public partial class VueApp : Window
 	{
 
-		protected Panel fragmentStatistiques = null;
-		protected Panel fragmentAdministration = null;
-		protected Panel fragmentAide = null;
-
 		protected VueStatistiques vueStatistiques = null;
 		protected VueAdministration vueAdministration = null;
 		protected VueAide vueAide = null;
@@ -32,13 +28,10 @@ namespace MultiPanneaux
 		public VueApp()
 		{
 			InitializeComponent();
-			this.fragmentStatistiques = this.panneauStatistique;
-			this.fragmentAdministration = this.panneauAdministration;
-			this.fragmentAide = this.panneauAide;
 
-			this.vueStatistiques = new VueStatistiques(this.fragmentStatistiques);
-			this.vueAide = new VueAide(this.fragmentAide);
-			this.vueAdministration = new VueAdministration(this.fragmentAdministration);
+			this.vueStatistiques = new VueStatistiques(this.panneauStatistique);
+			this.vueAide = new VueAide(this.panneauAide);
+			this.vueAdministration = new VueAdministration(this.panneauAdministration);
 
 			this.panneauPage.Children.Clear();
 			this.panneauPage.Children.Add(this.vueStatistiques.getVisuel());
