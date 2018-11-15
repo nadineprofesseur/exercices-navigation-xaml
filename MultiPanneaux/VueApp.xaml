@@ -16,8 +16,20 @@
 			<Button x:Name="actionNaviguerAdministration" Content="Administration" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="16" Background="#FF9BBBF1" BorderBrush="#FF9BBBF1" Click="actionNaviguerAdministration_Click"/>
 			<Button x:Name="actionNaviguerAide" Content="Aide" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="135" FontWeight="Bold" FontSize="16" Background="#FF9BBBF1" BorderBrush="#FF9BBBF1" Click="actionNaviguerAide_Click"/>
 		</WrapPanel>
-		<WrapPanel x:Name="page" HorizontalAlignment="Left" Height="345" Margin="0,75,-0.4,0" VerticalAlignment="Top" Width="794" Grid.ColumnSpan="2">
-			<TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="ADMINISTRATION" VerticalAlignment="Top" Height="55" Width="725" FontWeight="Bold" FontSize="36" TextAlignment="Center"/>
-		</WrapPanel>
+		<StackPanel x:Name="panneauPage" HorizontalAlignment="Left" Height="345" Margin="0,75,-0.4,0" VerticalAlignment="Top" Width="794" Grid.ColumnSpan="2">
+			<StackPanel x:Name="panneauStatistique" HorizontalAlignment="Left" Height="345" Margin="0,75,-0.4,0" VerticalAlignment="Top" Width="794" Grid.ColumnSpan="2">
+				<TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="STATISTIQUE" VerticalAlignment="Top" Height="55" Width="725" FontWeight="Bold" FontSize="36" TextAlignment="Center"/>
+			</StackPanel>
+			<StackPanel x:Name="panneauAdministration" HorizontalAlignment="Left" Height="345" Margin="0,75,-0.4,0" VerticalAlignment="Top" Width="794" Grid.ColumnSpan="2">
+				<TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="ADMINISTRATION" VerticalAlignment="Top" Height="55" Width="725" FontWeight="Bold" FontSize="36" TextAlignment="Center"/>
+				<CheckBox Content="CheckBox" Margin="0,0,555.6,0"/>
+				<Button Content="Button"/>
+				<Button Content="Button"/>
+			</StackPanel>
+			<StackPanel x:Name="panneauAide" HorizontalAlignment="Left" Height="345" Margin="0,75,-0.4,0" VerticalAlignment="Top" Width="794" Grid.ColumnSpan="2">
+				<TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="AIDE" VerticalAlignment="Top" Height="55" Width="725" FontWeight="Bold" FontSize="36" TextAlignment="Center"/>
+				<TextBlock TextWrapping="Wrap" Text="BLABLABLA" Margin="167,0,171.6,0" Height="110"/>
+			</StackPanel>
+		</StackPanel>
 	</Grid>
 </Window>

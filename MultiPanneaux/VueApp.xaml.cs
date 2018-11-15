@@ -20,9 +20,36 @@ namespace MultiPanneaux
 	/// </summary>
 	public partial class VueApp : Window
 	{
+
+		protected StackPanel vueStatistiques;
+		protected StackPanel vueAdministration;
+		protected StackPanel vueAide;
+
 		public VueApp()
 		{
 			InitializeComponent();
+			this.vueStatistiques = this.panneauStatistique;
+			this.vueAdministration = this.panneauAdministration;
+			this.vueAide = this.panneauAide;
+			this.panneauPage.Children.Clear();
+		}
+
+		private void actionNaviguerStatistiques_Click(object sender, RoutedEventArgs e)
+		{
+			this.panneauPage.Children.Clear();
+			this.panneauPage.Children.Add(this.vueStatistiques);
+		}
+
+		private void actionNaviguerAdministration_Click(object sender, RoutedEventArgs e)
+		{
+			this.panneauPage.Children.Clear();
+			this.panneauPage.Children.Add(this.vueAdministration);
+		}
+
+		private void actionNaviguerAide_Click(object sender, RoutedEventArgs e)
+		{
+			this.panneauPage.Children.Clear();
+			this.panneauPage.Children.Add(this.vueAide);
 		}
 	}
 }
