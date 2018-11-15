@@ -21,9 +21,9 @@ namespace MultiPanneaux
 	public partial class VueApp : Window
 	{
 
-		protected StackPanel vueStatistiques;
-		protected StackPanel vueAdministration;
-		protected StackPanel vueAide;
+		protected Panel vueStatistiques;
+		protected Panel vueAdministration;
+		protected Panel vueAide;
 
 		public VueApp()
 		{
@@ -32,6 +32,7 @@ namespace MultiPanneaux
 			this.vueAdministration = this.panneauAdministration;
 			this.vueAide = this.panneauAide;
 			this.panneauPage.Children.Clear();
+			this.panneauPage.Children.Add(this.vueStatistiques);
 		}
 
 		private void actionNaviguerStatistiques_Click(object sender, RoutedEventArgs e)
