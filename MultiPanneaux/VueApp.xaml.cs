@@ -21,36 +21,45 @@ namespace MultiPanneaux
 	public partial class VueApp : Window
 	{
 
-		protected Panel vueStatistiques;
-		protected Panel vueAdministration;
-		protected Panel vueAide;
+		protected Panel fragmentStatistiques = null;
+		protected Panel fragmentAdministration = null;
+		protected Panel fragmentAide = null;
+
+		protected VueStatistiques vueStatistiques = null;
+		protected VueAdministration vueAdministration = null;
+		protected VueAide vueAide = null;
 
 		public VueApp()
 		{
 			InitializeComponent();
-			this.vueStatistiques = this.panneauStatistique;
-			this.vueAdministration = this.panneauAdministration;
-			this.vueAide = this.panneauAide;
+			this.fragmentStatistiques = this.panneauStatistique;
+			this.fragmentAdministration = this.panneauAdministration;
+			this.fragmentAide = this.panneauAide;
+
+			this.vueStatistiques = new VueStatistiques(this.fragmentStatistiques);
+			this.vueAide = new VueAide(this.fragmentAide);
+			this.vueAdministration = new VueAdministration(this.fragmentAdministration);
+
 			this.panneauPage.Children.Clear();
-			this.panneauPage.Children.Add(this.vueStatistiques);
+			this.panneauPage.Children.Add(this.vueStatistiques.getVisuel());
 		}
 
 		private void actionNaviguerStatistiques_Click(object sender, RoutedEventArgs e)
 		{
 			this.panneauPage.Children.Clear();
-			this.panneauPage.Children.Add(this.vueStatistiques);
+			this.panneauPage.Children.Add(this.vueStatistiques.getVisuel());
 		}
 
 		private void actionNaviguerAdministration_Click(object sender, RoutedEventArgs e)
 		{
 			this.panneauPage.Children.Clear();
-			this.panneauPage.Children.Add(this.vueAdministration);
+			this.panneauPage.Children.Add(this.vueAdministration.getVisuel());
 		}
 
 		private void actionNaviguerAide_Click(object sender, RoutedEventArgs e)
 		{
 			this.panneauPage.Children.Clear();
-			this.panneauPage.Children.Add(this.vueAide);
+			this.panneauPage.Children.Add(this.vueAide.getVisuel());
 		}
 	}
 }

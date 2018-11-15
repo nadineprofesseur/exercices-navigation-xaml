@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="VueAdministration.cs" />
+    <Compile Include="VueAide.cs" />
+    <Compile Include="VueStatistiques.cs" />
     <Page Include="VueApp.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
