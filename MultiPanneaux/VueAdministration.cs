@@ -7,7 +7,7 @@ using System.Windows.Controls;
 
 namespace MultiPanneaux
 {
-	public class VueAdministration
+	public class VueAdministration : Panel
 	{
 		Panel panneau;
 		public VueAdministration(Panel panneau)

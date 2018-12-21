@@ -7,7 +7,7 @@ using System.Windows.Controls;
 
 namespace MultiPanneaux
 {
-	public class VueAide
+	public class VueAide : Panel
 	{
 		protected Panel panneau;
 		public VueAide(Panel panneau)
