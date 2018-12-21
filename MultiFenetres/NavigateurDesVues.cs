@@ -42,6 +42,11 @@ namespace MultiFenetres
 			this.vueCourante.Hide();
 			//this.vueCourante = null; // pour detruire l'objet au lieu de le reutiliser
 			this.vueCourante = this.vueAdministration;
+
+			List<string> listeDesMeilleurs = new List<string>();
+			listeDesMeilleurs.Add("Yohann");
+			listeDesMeilleurs.Add("Nadine");
+			this.vueAdministration.afficherListeSpecialistes(listeDesMeilleurs);
 		}
 
 		protected VueStatistiques vueStatistiques = null;
@@ -64,6 +69,7 @@ namespace MultiFenetres
 			this.vueCourante.Hide();
 			//this.vueCourante = null; // pour detruire l'objet au lieu de le reutiliser
 			this.vueCourante = this.vueAide;
+			this.vueAide.afficherMessage("Lisez le manuel");
 		}
 
 	}

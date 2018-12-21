@@ -11,5 +11,6 @@
 		<Button x:Name="actionNaviguerAdministration" Content="Administration" HorizontalAlignment="Left" Margin="140,23,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="16" Background="#FF9BBBF1" BorderBrush="#FF9BBBF1" Click="actionNaviguerAdministration_Click"/>
 		<Button x:Name="actionNaviguerAide" Content="Aide" HorizontalAlignment="Left" Margin="265,23,0,0" VerticalAlignment="Top" Width="135" FontWeight="Bold" FontSize="16" Background="#FF9BBBF1" BorderBrush="#FF9BBBF1" Click="actionNaviguerAide_Click"/>
 		<TextBlock HorizontalAlignment="Left" Margin="32,72,0,0" TextWrapping="Wrap" Text="AIDE" VerticalAlignment="Top" Height="55" Width="725" FontWeight="Bold" FontSize="36" TextAlignment="Center"/>
+		<TextBlock x:Name="message" HorizontalAlignment="Left" Margin="70,159,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="66" Width="640"/>
 	</Grid>
 </Window>

@@ -42,5 +42,10 @@ namespace MultiFenetres
 		{
 			this.controleur.notifierActionNaviguer(NavigateurDesVues.ACTION_NAVIGUER.AIDE);
 		}
+
+		public void afficherMessage(String message)
+		{
+			this.message.Text = message;
+		}
 	}
 }

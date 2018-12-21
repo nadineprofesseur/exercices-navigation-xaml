@@ -44,5 +44,13 @@ namespace MultiFenetres
 			this.controleur.notifierActionNaviguer(NavigateurDesVues.ACTION_NAVIGUER.AIDE);
 		}
 
+		public void afficherListeSpecialistes(List<string> specialistes)
+		{
+			this.listeSpecialistes.Text = "";
+			foreach (string specialiste in specialistes)
+			{
+				this.listeSpecialistes.Text += specialiste + "\n";
+			}
+		}
 	}
 }
